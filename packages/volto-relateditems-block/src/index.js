@@ -2,6 +2,7 @@ import linkIconSVG from '@plone/volto/icons/link.svg';
 import RelatedItemsView from './components/blocks/RelatedItems/View';
 import RelatedItemsEdit from './components/blocks/RelatedItems/Edit';
 import { relatedItemsSchema } from './components/blocks/RelatedItems/schema';
+import '../src/theme/main.css';
 
 const applyConfig = (config) => {
   config.blocks.blocksConfig.relatedItems = {

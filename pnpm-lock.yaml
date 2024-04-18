@@ -1294,6 +1294,9 @@ importers:
       '@plone/components':
         specifier: 1.7.0
         version: 1.7.0(react-dom@18.2.0)(react@18.2.0)
+      classnames:
+        specifier: 2.2.6
+        version: 2.2.6
       react:
         specifier: 18.2.0
         version: 18.2.0
