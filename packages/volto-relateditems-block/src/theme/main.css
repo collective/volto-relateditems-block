@@ -1,0 +1,26 @@
+.block.relatedItems {
+  width: 100%;
+  .inner-container {
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul.items-list {
+      display: block;
+      width: fit-content;
+    }
+  }
+
+  &.left {
+    .inner-container {
+      float: left;
+    }
+  }
+
+  &.right {
+    .inner-container {
+      float: right;
+    }
+  }
+}
