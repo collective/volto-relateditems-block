@@ -14,8 +14,8 @@
   &.right {
     justify-content: flex-end;
   }
-  
-/* To cancel duplicated border & spacings in Edit */
+
+  /* To cancel duplicated border & spacings in Edit */
   &.inner & &,
   &.inner & {
     margin-bottom: 0;
