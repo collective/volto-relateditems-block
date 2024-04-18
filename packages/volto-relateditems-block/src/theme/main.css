@@ -1,26 +1,28 @@
 .block.relatedItems {
   width: 100%;
+  display: flex;
+  justify-content: center;
+
   .inner-container {
     width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-
-    ul.items-list {
-      display: block;
-      width: fit-content;
-    }
   }
 
   &.left {
-    .inner-container {
-      float: left;
-    }
+    justify-content: flex-start;
   }
 
   &.right {
-    .inner-container {
-      float: right;
+    justify-content: flex-end;
+  }
+  
+/* To cancel duplicated border & spacings in Edit */
+  &.inner & &,
+  &.inner & {
+    margin-bottom: 0;
+  }
+  &.inner & & {
+    &::before {
+      display: none;
     }
   }
 }
