@@ -7,9 +7,13 @@ A new add-on for Volto
 [![Code analysis checks](https://github.com/collective/volto-relateditems-block/actions/workflows/code.yml/badge.svg)](https://github.com/collective/volto-relateditems-block/actions/workflows/code.yml)
 [![Unit tests](https://github.com/collective/volto-relateditems-block/actions/workflows/unit.yml/badge.svg)](https://github.com/collective/volto-relateditems-block/actions/workflows/unit.yml)
 
+This block was developed during [World Plone Day 2024](https://www.youtube.com/watch?v=lzILjH7N-Hk).
+
 ## Features
 
-<!-- List your awesome features here -->
+### Blocks
+
+* Related Items block
 
 ## Installation
 
@@ -191,4 +195,3 @@ make test-acceptance
 ## License
 
 The project is licensed under the MIT license.
-# volto-relateditems-block
