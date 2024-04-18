@@ -1,1 +1,0 @@
-Add cypress test. @davisagli
