@@ -1,6 +1,6 @@
 {
   "name": "@plone-collective/volto-relateditems-block",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "A new add-on for Volto",
   "main": "src/index.js",
   "license": "MIT",
