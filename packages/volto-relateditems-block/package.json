@@ -27,13 +27,12 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "dependencies": {
-    "@plone/components": "1.7.0",
     "classnames": "2.2.6"
   },
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-intl": "3.8.0"
+    "react-intl": "^3.12.1"
   },
   "devDependencies": {
     "@plone/scripts": "^3.6.1",
